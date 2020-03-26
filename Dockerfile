@@ -1,4 +1,4 @@
-FROM websphere-liberty:kernel
+FROM websphere-liberty:kernel-java8-openj9-ubi
 
 COPY src/main/liberty/config/server.xml /config/server.xml
 COPY src/main/liberty/config/server.env /config/server.env
